@@ -9,11 +9,13 @@ updates:
     directory: "/" # Location of package manifests 
     schedule:
       interval: "weekly"
-      commit-message:
-        prefix: "update"
-      open-pull-requests-limit: 5
-      rebase-strategy: "auto"
-      security-update: true
+    commit-message:
+      prefix: "update"
+    pull-request-branch-name:
+      separator: "-" # Définir un séparateur personnalisé dans le nom des branches
+    open-pull-requests-limit: 5
+    rebase-strategy: "auto"
+    security-update: true
 
 
 
