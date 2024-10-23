@@ -11,9 +11,9 @@ updates:
       interval: "weekly"
       commit-message:
         prefix: "update"
-      open-pull-requests-limit:
-        rebase-strategy: "auto"
-        security-update: true
+      open-pull-requests-limit: 5
+      rebase-strategy: "auto"
+      security-update: true
 
 
 
