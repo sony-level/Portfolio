@@ -15,7 +15,7 @@ updates:
       separator: "-" # Définir un séparateur personnalisé dans le nom des branches
     open-pull-requests-limit: 5
     rebase-strategy: "auto"
-    security-update: true
+    security-updates: true
 
 
 
