@@ -9,7 +9,13 @@ updates:
     directory: "/" # Location of package manifests 
     schedule:
       interval: "weekly"
-      enable-beta-ecosystems: true
+      commit-message:
+        prefix: "update"
+      open-pull-requests-limit:
+        rebase-strategy: "auto"
+        security-update: true
+
+
 
 
 
