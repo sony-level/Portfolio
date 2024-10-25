@@ -86,7 +86,7 @@ import {VscGithubAction} from "react-icons/vsc";
 import {GiFirewall} from "react-icons/gi";
 
 
-export const dockDockGoLink = import.meta.env.VITE_BASE_URLK;
+export const dockDockGoLink = import.meta.env.VITE_BASE_URL;
 export const resumeLink = "";
 export const repoLink = "https://github.com/sony-level";
 
