@@ -20,10 +20,9 @@ import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
 import freadom from "./freadom.jpg";
 import ecell from "./ecell.png";
-import bank from "./bank.jpg";
 import gdsc from "./gdsc.png";
 import iris from "./iris.png";
-import genesis from "./genesis.jpg";
+
 import todo from "./todo.jpg";
 import graphql from "./graphql.png";
 import portfolio from "./portfolio.jpg";
@@ -37,7 +36,6 @@ import huntly from "./huntly.png";
 import oracle from "./oracle.jpg";
 import comicify_ai from "./comicify-ai.png";
 import greentrust from "./green_trust.png";
-import averlon from "./averlon.jpg";
 import devfolio from "./devfolio.png";
 import pba from "./pba_logo.jpeg";
 import ethglobal from "./ethglobal.png";
@@ -105,11 +103,9 @@ export {
   cluboard,
   cash_flow,
   freadom,
-  bank,
   gdsc,
   iris,
   ecell,
-  genesis,
   todo,
   graphql,
   portfolio,
@@ -125,7 +121,6 @@ export {
   oracle,
   comicify_ai,
   greentrust,
-  averlon,
   vens,
   devfolio,
   pba,
