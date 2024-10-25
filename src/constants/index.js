@@ -41,18 +41,7 @@ import {
   SiJquery,
   SiVisualstudiocode,
   SiGit,
-  SiSolidity,
-  SiChartdotjs,
-  SiArduino,
-  SiWeb3Dotjs,
-  SiIpfs,
-  SiDotnet,
   SiTwilio,
-  SiFlutter,
-  SiReplit,
-  SiFlask,
-  SiFigma,
-  SiGooglemaps,
   SiOpenai,
   SiGooglecloud,
   SiNextdotjs,
@@ -97,7 +86,7 @@ import {VscGithubAction} from "react-icons/vsc";
 import {GiFirewall} from "react-icons/gi";
 
 
-export const dockDockGoLink = import.meta.env.VITE_DOCKDOCK_GO_LINK;
+export const dockDockGoLink = import.meta.env.VITE_BASE_URLK;
 export const resumeLink = "";
 export const repoLink = "https://github.com/sony-level";
 
