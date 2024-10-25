@@ -15,7 +15,7 @@ import {
   cloud,
   othelo,
   blog,
-  owasp
+  owasp, learn
 
 } from "../assets";
 
@@ -778,10 +778,10 @@ export const projects = [
 export const blogPosts = [
   {
     id: "post-1",
-    title: "Protéger un Avenir Numérique",
-    link: "https://blogcyber.level.ovh/blog-sur-la-cybersecurite-protegez-votre-avenir-numerique/",
+    title: "Une plongée dans la cybersécurité et la programmation à travers mes propres yeux",
+    link: "https://blogcyber.level.ovh/a-travers-mes-propres-yeux/",
     date: new Date().toLocaleDateString(),
-    image: "https://cyber-avenir.com/wp-content/uploads/2023/01/cyber-avenir-img-fond1.jpg",
+    image: learn,
     tags: [
       {
         id: "tag-1",
