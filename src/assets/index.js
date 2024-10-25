@@ -59,9 +59,10 @@ import cloud from "./cloud.webp";
 import othelo from "./Othello.png"
 import blog from "./blog.png"
 import owasp from "./owasp.webp"
-
+import learn from "./learn.jpeg"
 export {
   bash,
+    learn,
   othelo,
   owasp,
   cloud,
