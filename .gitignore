@@ -22,5 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-.env.production
+.env.production.local
 CODE_OF_CONDUCT.md
