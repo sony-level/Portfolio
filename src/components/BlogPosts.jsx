@@ -46,7 +46,7 @@ const BlogPost = (props) => {
 
         <div className="mt-8">
           <a href={props.link} target="_blank">
-            <Button text="Read more &rarr;" />
+            <Button text="Lire plus &rarr;" />
           </a>
         </div>
       </div>
