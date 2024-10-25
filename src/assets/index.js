@@ -18,11 +18,8 @@ import twitter from "./twitter.svg";
 import nitk from "./nitk.png";
 import cluboard from "./cluboard.png";
 import cash_flow from "./cash_flow.jpg";
-import freadom from "./freadom.jpg";
-import ecell from "./ecell.png";
 import gdsc from "./gdsc.png";
 import iris from "./iris.png";
-
 import todo from "./todo.jpg";
 import graphql from "./graphql.png";
 import portfolio from "./portfolio.jpg";
@@ -33,9 +30,6 @@ import chargeswap from "./chargeswap.png";
 import placeicon from "./place-icon.svg";
 import recruitment from "./recruitment.png";
 import huntly from "./huntly.png";
-import oracle from "./oracle.jpg";
-import comicify_ai from "./comicify-ai.png";
-import greentrust from "./green_trust.png";
 import devfolio from "./devfolio.png";
 import pba from "./pba_logo.jpeg";
 import ethglobal from "./ethglobal.png";
@@ -68,10 +62,10 @@ import owasp from "./owasp.webp"
 
 export {
   bash,
-    othelo,
-    owasp,
+  othelo,
+  owasp,
   cloud,
-    blog,
+  blog,
   quick,
   rootme,
   ad,
@@ -102,10 +96,8 @@ export {
   nitk,
   cluboard,
   cash_flow,
-  freadom,
   gdsc,
   iris,
-  ecell,
   todo,
   graphql,
   portfolio,
@@ -118,9 +110,6 @@ export {
   placeicon,
   recruitment,
   huntly,
-  oracle,
-  comicify_ai,
-  greentrust,
   vens,
   devfolio,
   pba,
