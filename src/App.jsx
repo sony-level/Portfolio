@@ -14,6 +14,7 @@ import {
   Projects,
   BlogPosts,
   Loading,
+  CVE,
   Achievements, Stats,
 } from "./components";
 
@@ -66,6 +67,7 @@ const App = () => {
             <OpenSource />
             <BlogPosts enabled={true} />
             <ExtraCurricular />
+
           </div>
         </div>
         <Footer />
