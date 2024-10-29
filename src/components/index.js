@@ -13,6 +13,8 @@ import Stats from "./Stats";
 import Loading from "./Loading";
 import BlogPosts from "./BlogPosts";
 import Achievements from "./Achievements";
+import CVE from "./Cv";
+
 
 
 export {
@@ -29,4 +31,5 @@ export {
     Loading,
     BlogPosts,
     Achievements,
+    CVE
 };
