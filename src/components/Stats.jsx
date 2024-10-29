@@ -9,7 +9,7 @@ const Stats = () => (
 
     <div className="flex-1 flex justify-start items-center flex-row m-3">
         <Row style={{justifyContent: "center", paddingBottom: "10px"}}>
-            <p className="font-poppins font-normal xs:text-[40.89px] text-[30.89px] xs:leading-[26.58px] leading-[21.58px] text-gradient uppercase ml-3">
+            <p className="font-poppins font-normal xs:text-[30.89px] text-[29.89px] xs:leading-[26.58px] leading-[21.58px] text-gradient uppercase ml-3">
                 Jours de <strong className="purple">Codage</strong>
             </p>
             <GitHubCalendar
