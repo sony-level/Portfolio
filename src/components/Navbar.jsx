@@ -17,26 +17,26 @@ const Navbar = () => {
       </a>
 
       {/* Listes des lliens  */}
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-        {navLinks.map((nav, index) => (
-          <li
-            key={nav.id}
-            className={`font-poppins
+        <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+            {navLinks.map((nav, index) => (
+                <li
+                    key={nav.id}
+                    className={`font-poppins
             font-normal
             cursor-pointer
             text-[16px]
             ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}
             text-white hover:text-teal-200`}
-          >
-            <a href={`#${nav.id}`}>{nav.title}</a>
-          </li>
-        ))}
-      </ul>
+                >
+                    <a href={`#${nav.id}`}>{nav.title}</a>
+                </li>
+            ))}
+        </ul>
 
-      {/* uniquement pour les appareils mobiles, créés séparément */}
-      <div className="sm:hidden flex flex-1 justify-end items-center">
-        {/* comment basculer l'icône en fonction de son état*/}
-        <img
+        {/* uniquement pour les appareils mobiles, créés séparément */}
+        <div className="sm:hidden flex flex-1 justify-end items-center">
+            {/* comment basculer l'icône en fonction de son état*/}
+            <img
           src={toggle ? close : menu}
           alt="menu"
           className="w-[28px] h-[28px] object-contain"
