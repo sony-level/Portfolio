@@ -114,10 +114,6 @@ export const navLinks = [
     title: "Open Source",
   },
   {
-    id: "Blog",
-    title: "Blog",
-  },
-  {
     id: "extraCurricular",
     title: "Extrascolaire",
   },
