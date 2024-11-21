@@ -15,7 +15,7 @@ import {
   cloud,
   othelo,
   blog,
-  owasp, learn
+  owasp, learn, afev
 
 } from "../assets";
 
@@ -819,6 +819,23 @@ export const extraCurricular = [
       },
     ],
     logo: kfc,
+  },
+  {
+    organisation: "AFEV , Association de la Fondation Etudiante pour la Ville",
+    title: "Bénévole , Mentor educatif",
+    duration: "Octobre 2024 - Present",
+    city: "Toulon, France",
+    content: [
+      {
+        text: "Accompagnement hebdomadaire d’un ou plusieurs jeunes dans leur parcours éducatif, avec des sessions axées sur l’aide aux devoirs, l’organisation, et la méthodologie ",
+        link: "https://afev.org/",
+      },
+      {
+        text: "Animation d’ateliers sur des thématiques variées (lecture, écriture, mathématiques, sciences) pour rendre l’apprentissage interactif et engageant.",
+        link: "",
+      },
+    ],
+    logo: afev,
   },
 ];
 

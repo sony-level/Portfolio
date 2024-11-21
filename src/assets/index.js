@@ -60,9 +60,11 @@ import othelo from "./Othello.png"
 import blog from "./blog.png"
 import owasp from "./owasp.webp"
 import learn from "./learn.jpeg"
+import afev from "./afev.png"
 export {
   bash,
     learn,
+    afev,
   othelo,
   owasp,
   cloud,
